@@ -1,10 +1,10 @@
-title: Hyde
+title: 백엔드 개발자 수현's blog
 description: >-
-  Build your own portfolio <br>
-  with Hyde.
-url: "https://chemistryx.me"
-github: ChemistryX
-email: changeme@chemistryx.me
+  백엔드 개발자 수현 <br>
+  기록들.
+url: "http://i960107.github.io"
+github: i960107
+email: i960107@naver.com
 google_analytics: <YOUR UA TOKEN>
 
 exclude: [README.md, Gemfile, Gemfile.lock]
