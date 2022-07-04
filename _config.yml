@@ -14,6 +14,9 @@ comments:
   repo: ChemistryX/hyde-comments
   issue-term: pathname
 
+markdown: kramdown
+highlighter: rouge
+
 collections:
   pages:
     output: true
@@ -42,3 +45,4 @@ defaults:
     values:
       layout: tag
       permalink: /tags/:title
+
