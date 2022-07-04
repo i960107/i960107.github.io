@@ -7,15 +7,15 @@ github: i960107
 email: i960107@naver.com
 google_analytics: <YOUR UA TOKEN>
 
-exclude: [README.md, Gemfile, Gemfile.lock]
+exclude: [ README.md, Gemfile, Gemfile.lock ]
+
+kramdown:
+  syntax_highlighter: rouge
 
 comments:
   enabled: true
   repo: ChemistryX/hyde-comments
   issue-term: pathname
-
-markdown: kramdown
-highlighter: rouge
 
 collections:
   pages:
@@ -34,7 +34,7 @@ defaults:
       type: posts
     values:
       layout: post
-      permalink: /blog/:title
+      permalink: /posts/:title
   - scope:
       type: projects
     values:
