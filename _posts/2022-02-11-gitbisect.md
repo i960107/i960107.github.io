@@ -1,11 +1,11 @@
 ---
 title: 이진 검색을 활용하여 결함을 유발하는 커밋 찾기(Git Bisect)
 tags:
-
 - algorithm
-- binary-search 
+- 이진검색
 author: 수현
 ---
+
 {::options parse_block_html="true"/}
 
 <div style = "text-align: justify">
