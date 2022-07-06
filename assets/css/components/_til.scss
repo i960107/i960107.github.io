@@ -1,0 +1,27 @@
+// Post
+
+.tils {
+  font-family: Pretendard, sans-serif;
+
+  .til {
+    padding: 2rem 0;
+    line-height: 1.4;
+
+    @media (max-width: $small) {
+      padding: 2rem 0;
+    }
+
+    }
+
+
+    .til-title {
+      font-size: 1rem;
+      color: $dark;
+      margin: 0.75rem 0 0 0;
+    }
+
+
+      .til-date {
+        font-weight: 450;
+    }
+  }

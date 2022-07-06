@@ -5,9 +5,12 @@ description: >-
 url: "http://i960107.github.io"
 github: i960107
 email: i960107@naver.com
-google_analytics: <YOUR UA TOKEN>
+google_analytics: G-MPC7MNEMYK
 
 exclude: [ README.md, Gemfile, Gemfile.lock ]
+
+sass:
+  sass_dir: ./assets/css
 
 kramdown:
   syntax_highlighter: rouge
