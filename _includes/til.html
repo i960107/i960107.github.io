@@ -1,7 +1,12 @@
-<a href="{{ post.url }}">
-    <li >
-        <span>{{ post.title }}</span>
-        <span >{{ post.date | date: '%Y년 %-m월 %-d일' }}</span>
-    </li>
-</a>
-{% include tags.html %}
+<li class = "til">
+    <a href="{{ post.url }}">
+        <span class = "til-title">{{ post.title }}</span>
+        <span class = " til-date">{{ post.date | date: '%Y년 %-m월 %-d일' }}</span>
+        {% if post %} {% assign tags = post.tags %} {% else %} {% assign tags = page.tags %} {% endif %}
+        <span class="hyde tags{% unless post %} header-tags{% endunless %}">
+            {% for site_tag in site.tags %} {% for tag in tags %} {% if site_tag.identifier == tag %}
+            <a class="hyde tag" href="/tags/{{ site_tag.identifier }}">{{ site_tag.title }}</a>
+            {% endif %} {% endfor %} {% endfor %}
+        </span>
+    </a>
+</li>
