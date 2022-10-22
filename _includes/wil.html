@@ -1,0 +1,9 @@
+<div class="hyde post{% unless forloop.last %} divider{% endunless %}">
+    <a href="{{ post.url }}">
+      <h2 class="hyde post-title">{{ post.title }}</h2>
+    </a>
+    <div class="hyde post-trail">
+      {% include tags.html %}
+      <span class="hyde post-date">{{ post.date | date: '%Y년 %-m월 %-d일' }}</span>
+    </div>
+  </div>
