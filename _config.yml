@@ -27,7 +27,7 @@ collections:
     output: true
   tags:
     output: true
-  tils:
+  wils:
     output: true
 
 defaults:
@@ -41,10 +41,10 @@ defaults:
       layout: post
       permalink: /posts/:title
   - scope:
-      type: tils
+      type: wils
     values:
-      layout: til
-      permalink: /tils/:title
+      layout: wil
+      permalink: /wils/:title
   - scope:
       type: projects
     values:
